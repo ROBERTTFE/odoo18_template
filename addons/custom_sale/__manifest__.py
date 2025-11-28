@@ -1,6 +1,6 @@
 {
-    "name":"Personalización de formato de ventas"
-    "data":[,
+    "name":"Personalización de formato de ventas",
+    "data":[
         "views/sale_order.xml"
     ],
     "depends":[
