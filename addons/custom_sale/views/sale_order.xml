@@ -1,5 +1,14 @@
 <odoo>
     <record id="custom_sale.report_saleorder_document_inherit" model="ir.ui.view">
-
+        <field name="name">custom_sale.report_saleorder_document</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.report_saleorder_document"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@class='page']" position="inside">
+                <div style="text-align: center; font-weight: bold; margin-top: 10px;">
+                    ¡Gracias por su compra!
+                </div>
+            </xpath>
+        </field>
     </record>
 </odoo>
