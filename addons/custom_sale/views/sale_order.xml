@@ -1,0 +1,5 @@
+<odoo>
+    <record id="custom_sale.report_saleorder_document_inherit" model="ir.ui.view">
+
+    </record>
+</odoo>
