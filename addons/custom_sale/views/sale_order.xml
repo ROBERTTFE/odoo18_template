@@ -4,11 +4,11 @@
         <field name="model">sale.order</field>
         <field name="inherit_id" ref="sale.report_saleorder_document"/>
         <field name="arch" type="xml">
-            <xpath expr="//div[@class='page']" position="inside">
-                <div style="text-align: center; font-weight: bold; margin-top: 10px;">
-                    ¡Gracias por su compra!
-                </div>
+           
+            <xpath expr="//td[@name='td_name']" position="before">
+                <td name="td_image_product"><span t-field="line.product_id.image_1920" class="img img-fluid" style="max-height: 60px;"/></td>
             </xpath>
+            
         </field>
     </record>
 </odoo>
